@@ -1,0 +1,5 @@
+Item: Example Tool (checked 2026-01-15)
+1. Open-source CLI that turns a written spec into a task plan for coding agents. Source: https://github.com/example/example-tool (README)
+2. License: MIT. Source: GitHub API /repos/example/example-tool
+3. ~12K GitHub stars on 2026-01-15. Source: GitHub API
+4. Steps: principles -> spec -> plan -> tasks -> implement. Source: README "Workflow"

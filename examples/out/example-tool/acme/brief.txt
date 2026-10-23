@@ -1,0 +1,7 @@
+Brand: Acme (AI automation agency)
+Voice: "we", solution-focused, no hype
+Pillar: repeatable agent workflows
+Audience: small-business owners and ops leads
+Angle: agents without a process give unpredictable output; a written spec makes them repeatable.
+CTA: "Want this in your team? Book a call."
+Use facts: 1, 2, 4 (skip star count)

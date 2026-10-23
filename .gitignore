@@ -1,0 +1,7 @@
+/out/
+/art/
+*.html
+*.png
+__pycache__/
+.env
+skills/multi-brand-content-pipeline/scripts/fonts/*.woff2

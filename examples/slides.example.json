@@ -1,0 +1,15 @@
+{
+  "theme": "violet",
+  "brand": "Acme",
+  "series": "Tool of the day",
+  "prefix": "example-tool-acme",
+  "name": "Example Tool",
+  "type_label": "GitHub",
+  "stars": "12K",
+  "slides": [
+    {"layout": "hero", "art": "art/1.jpg", "hook": "Write the spec before the code", "sub": "What the README actually says"},
+    {"layout": "card", "art": "art/2.jpg", "kicker": "Step 1", "title": "Order, not rush", "text": "Principles, then spec, then plan and tasks, then implement."},
+    {"layout": "card", "art": "art/3.jpg", "kicker": "Step 2", "title": "Who it is for", "bullets": ["Teams shipping with coding agents", "Solo builders who want repeatable output"]},
+    {"layout": "cta", "art": "art/4.jpg", "title": "Try it", "text": "Open source, MIT licensed.", "url": "github.com/example/example-tool", "cta": "Do you spec first?"}
+  ]
+}

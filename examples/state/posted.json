@@ -1,0 +1,15 @@
+{
+  "items": [
+    {
+      "slug": "example-tool",
+      "source_url": "https://github.com/example/example-tool",
+      "date": "2026-01-15",
+      "brands": {
+        "alex": {"linkedin": {"status": "published", "url": "https://www.linkedin.com/feed/update/EXAMPLE"}},
+        "acme": {"instagram": {"status": "skipped", "reason": "no channel connected"}},
+        "forge-studio": {"instagram": {"status": "published", "url": "https://www.instagram.com/p/EXAMPLE/"}}
+      },
+      "announcement": {"status": "sent"}
+    }
+  ]
+}

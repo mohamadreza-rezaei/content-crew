@@ -1,0 +1,10 @@
+{
+  "name": "content-crew",
+  "version": "0.1.0",
+  "description": "Turn one item into researched, fact-checked, multi-brand social content with a crew of agents: writer, humanizer, video editor and approval-gated publisher.",
+  "author": {"name": "Mohamadreza Rezaei", "url": "https://github.com/mohamadreza-rezaei"},
+  "homepage": "https://github.com/mohamadreza-rezaei/content-crew",
+  "repository": "https://github.com/mohamadreza-rezaei/content-crew",
+  "license": "MIT",
+  "keywords": ["skills", "agent-skills", "content", "social-media", "linkedin", "instagram", "carousel", "multi-agent"]
+}
