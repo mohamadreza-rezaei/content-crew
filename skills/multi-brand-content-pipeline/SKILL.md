@@ -75,8 +75,3 @@ out/<slug>/<brand>/facts.txt brief.txt linkedin.txt caption.txt
 state/posted.json      # dedupe + status log
 state/content-guide.md # brands, voices, pillars
 ```
-
-## Bundled resources
-- `scripts/render.py`: carousel slide renderer (HTML/CSS overlay + headless Chrome). See `scripts/README.md`.
-- `scripts/check_lines.py`: line-start check for RTL language rules.
-- `references/checklist.md`: pre-handoff checklist. Run it before every handoff.
