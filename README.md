@@ -23,7 +23,8 @@ Posting the same tool or idea for a personal page, an agency and a studio usuall
 - 🔁 **No duplicates.** Checks a dedupe log *and* your live feed before picking an item.
 - 🔎 **Facts first.** Every brand gets a numbered `facts.txt` with sources. Writers can't use anything else.
 - 🗣️ **Real brand voices.** "I" for the founder, "we" for each company, or `NO CONTENT` when there is no honest angle.
-- 🖼️ **Designed carousels.** AI art + crisp HTML/CSS text overlay (no garbled AI lettering), 4–6 slides that tell one story.
+- ✍️ **Experience-first copy.** Posts and captions lead with installed, used-for-a-while experience, then the tool. They read as practitioner notes, not a product pitch. No invented anecdotes; a docs-only or first-run case stays framed that way.
+- 🖼️ **Designed carousels.** Modern, professional, distinctive art and color: attractive backgrounds and palettes, with unique visuals preferred over bland, low-contrast, or reused flat mascot slides. AI art plus crisp HTML/CSS text overlay (no garbled AI lettering), 4–6 slides that tell one story.
 - 📱 **Stories.** Slides become 9:16 vertical stories.
 - ✅ **Human approval gate.** Nothing is published without the owner saying yes.
 - 🌍 **RTL-safe.** Built-in rules and a checker for Persian/Arabic/Hebrew (no line starts with a Latin word).
