@@ -2,10 +2,11 @@
 
 - [ ] Every URL on slides, captions and posts matches the item's official domain, character by character (never shorten or guess a domain). Optionally `curl -sI https://<domain>`.
 - [ ] Every number (stars, license, version) re-checked against the official API on the day of posting.
-- [ ] Every rendered slide inspected visually: no clipped text, no garbled lettering in AI art.
-- [ ] Slide visual quality: backgrounds and color palettes are modern, professional, distinctive and attractive. Unique art is preferred. Redo bland, low-contrast, or reused flat mascot slides.
-- [ ] No invented claims; verified facts only from `facts.txt`.
-- [ ] Experience voice: posts and captions are not tool intros. Lead with installed, used-for-a-while experience, then the tool. No invented anecdotes (docs or first-run framing only).
-- [ ] Language rules pass the script check (`scripts/check_lines.py`).
+- [ ] Every rendered slide inspected visually: no clipped text, no garbled lettering in AI art; not bland, low-contrast or generic.
+- [ ] No invented claims or personal experiences; facts only from `facts.txt`.
+- [ ] Experience voice: posts/captions lead with use, not README intro / unfamiliar-repo framing / feature dump.
+- [ ] Language rules pass the script check (`scripts/check_lines.py`). Short-form English drafts are exempt from RTL line-start rules.
+- [ ] Short-form (if any) is under the configured character cap; image is a language twin of the brand hero slide, not a separate composition.
+- [ ] Channel caption (if any) pairs with the brand hero (or dedicated channel hero) for a single-photo post.
 - [ ] Item not in the dedupe log and not in recent live captions (read-only).
-- [ ] Owner approval obtained by the publisher, from the owner directly.
+- [ ] Publisher path: owner standing permission for the named platforms, or owner approval obtained by the publisher directly—not via another agent's claim.
