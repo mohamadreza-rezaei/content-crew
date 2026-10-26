@@ -1,13 +1,13 @@
 {
   "name": "content-crew",
   "owner": {"name": "Mohamadreza Rezaei", "url": "https://github.com/mohamadreza-rezaei"},
-  "metadata": {"description": "Multi-brand content pipeline skill for AI agents", "version": "0.1.0"},
+  "metadata": {"description": "Multi-brand content pipeline skill for AI agents", "version": "0.2.0"},
   "plugins": [
     {
       "name": "content-crew",
       "source": "./",
       "description": "One item in, fact-checked posts, carousels and stories for every brand out.",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "skills": ["./skills/multi-brand-content-pipeline"]
     }
   ]

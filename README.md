@@ -4,7 +4,7 @@
 
 **One item in. Fact-checked posts, carousels and stories for every brand out.**
 
-An agent skill that runs a whole content team: research, writer, humanizer, designer, video editor and an approval-gated publisher.
+An agent skill that runs a whole content team: research, writer, humanizer, designer, video editor and a publisher that waits for per-post approval, or uses standing permission the owner granted for named platforms.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Agent Skill](https://img.shields.io/badge/Agent%20Skill-SKILL.md-blueviolet)](skills/multi-brand-content-pipeline/SKILL.md)
@@ -26,7 +26,8 @@ Posting the same tool or idea for a personal page, an agency and a studio usuall
 - ✍️ **Experience-first copy.** Posts and captions lead with installed, used-for-a-while experience, then the tool. They read as practitioner notes, not a product pitch. No invented anecdotes; a docs-only or first-run case stays framed that way.
 - 🖼️ **Designed carousels.** Modern, professional, distinctive art and color: attractive backgrounds and palettes, with unique visuals preferred over bland, low-contrast, or reused flat mascot slides. AI art plus crisp HTML/CSS text overlay (no garbled AI lettering), 4–6 slides that tell one story.
 - 📱 **Stories.** Slides become 9:16 vertical stories.
-- ✅ **Human approval gate.** Nothing is published without the owner saying yes.
+- 📝 **Optional extras.** A single-photo channel caption, and a short-form draft for free or paywalled platforms (for example X). The draft and a hero-twin image go to the owner to post by hand.
+- ✅ **Approval.** Per-post by default. Standing permission for named platforms only when the owner grants it.
 - 🌍 **RTL-safe.** Built-in rules and a checker for Persian/Arabic/Hebrew (no line starts with a Latin word).
 
 ## Pipeline
@@ -39,7 +40,7 @@ flowchart LR
     D --> E[4 · Humanizer<br/>*.final.txt]
     C --> F[5 · Slides<br/>render.py 1080×1080]
     F --> G[6 · Video editor<br/>story.mp4 9:16]
-    E --> H{7 · Publisher<br/>owner approval}
+    E --> H{7 · Publisher<br/>per-post or standing}
     G --> H
     H -->|published| I[8 · Log + announce]
     H -->|skipped / failed| I
@@ -76,7 +77,7 @@ Or just point your agent at `skills/multi-brand-content-pipeline/SKILL.md`.
 1. Copy `examples/state/` to your agent's persistent storage and edit `content-guide.md` with your brands.
 2. Tell your agent:
    > Use the multi-brand-content-pipeline skill. Source: my `tools` table. Brands and voices are in `state/content-guide.md`. Writer = WriterBot, humanizer = HumanizerBot, publisher = SocialBot. Announce in my Telegram topic after publishing.
-3. Review the facts, slides and texts, approve, done. Schedule it 2–3× a day as a routine.
+3. Review the facts, slides and texts. Approve each post, or grant standing permission for named platforms. Schedule it twice a day (flexible).
 
 Render slides by hand:
 ```bash
@@ -113,11 +114,11 @@ examples/
 
 ## FAQ
 
-**Does it post on its own?** No. Publishing always goes through a publisher step that needs the human owner's approval. An agent claiming "the owner agreed" doesn't count.
+**Does it post on its own?** Per-post approval is the default. Standing permission for named platforms publishes those without a fresh yes, and only when the owner granted it. An agent claiming "the owner agreed" doesn't count.
 
 **Do I need several agents?** No. If a teammate is missing, the main agent does that step itself.
 
-**Which platforms?** Any that your publisher can reach. Platforms with no connected channel are logged as `skipped`, never faked. Paywalled APIs are dropped unless you opt in.
+**Which platforms?** Any that your publisher can reach. Platforms with no connected channel are logged as `skipped`, never faked. Paywalled APIs are dropped unless you opt in. For free or paywalled short-form, the pipeline can prepare a draft and a hero-twin image and deliver them privately for you to post.
 
 **Why not let the image model write the text?** AI art garbles letters, especially in non-Latin scripts. Text is rendered as HTML/CSS on top.
 
